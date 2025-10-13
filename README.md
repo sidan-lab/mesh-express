@@ -5,18 +5,18 @@ This is a boilerplate of building and submitting Cardano transaction using `card
 ## Getting Started
 
 ```shell
-yarn # or npm install
+npm install
 ```
 
 ```shell
-yarn start # or npm start
+npm run start
 The server will start on http://localhost:3000 by default.
 ```
 
 ## Testing
 
 ```shell
-yarn test # or npm test
+npm run test
 ```
 
 ## Error Handling
