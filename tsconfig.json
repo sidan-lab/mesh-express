@@ -1,18 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@controllers": ["src/controllers/"],
-      "@controllers/*": ["src/controllers/*"],
-      "@libs": ["src/libs/"],
-      "@libs/*": ["src/libs/*"],
-      "@models": ["src/models/"],
-      "@models/*": ["src/models/*"],
-      "@services": ["src/services/"],
-      "@services/*": ["src/services/*"],
-      "@middleware": ["src/middleware/"],
-      "@middleware/*": ["src/middleware/*"]
-    },
     "lib": ["ESNext"],
     "moduleResolution": "node",
     "noUnusedLocals": true,

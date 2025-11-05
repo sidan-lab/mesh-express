@@ -1,7 +1,7 @@
-import { Request, Response } from 'express';
-import { buildExampleTx } from './cslTx/buildExampleTx';
+import { Request, Response } from "express";
+import { buildExampleTx } from "../../transactions";
 
 export const buildTx = (_req: Request, res: Response) => {
-  const signedTx = buildExampleTx()
+  const signedTx = buildExampleTx();
   res.json({ signedTx });
-}
+};

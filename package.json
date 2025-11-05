@@ -12,7 +12,7 @@
     "test": "concurrently \"yarn test:endpoints\" \"yarn test:validation\" \"yarn test:businessLogic\""
   },
   "dependencies": {
-    "@meshsdk/core": "^1.9.0-beta.81",
+    "@meshsdk/core": "^1.9.0-beta.86",
     "axios": "^1.12.2",
     "class-validator": "^0.14.2",
     "cors": "^2.8.5",

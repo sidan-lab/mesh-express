@@ -1,3 +1,3 @@
 export const buildExampleTx = (): string => {
-  return 'signedTx';
-}
+  return "signedTx";
+};
